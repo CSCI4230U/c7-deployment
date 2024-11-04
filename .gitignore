@@ -1,0 +1,78 @@
+code.zip
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables and Python environment files
+.env
+*.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+*.bak
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Flask specific files
+instance/
+*.log
+*.pot
+*.pyc
+
+# SQL database files
+*.sqlite3
+*.db
+
+# Flask-migrate files (if using Flask-Migrate for database migrations)
+migrations/
+
+# Static file assets generated (e.g., by Flask's asset pipeline)
+static/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyCharm project files
+.idea/
+
+# VS Code project files
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS / Linux specific files
+.DS_Store
+*.swp
